@@ -1,6 +1,6 @@
 Name:           maven-install-plugin
 Version:        2.4
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Maven Install Plugin
 
 Group:          Development/Libraries
@@ -67,6 +67,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.4-7
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 2.4-6
 - Migrate away from mvn-rpmbuild (Resolves: #997497)
 
